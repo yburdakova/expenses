@@ -1,0 +1,16 @@
+.chartbox__container{
+    background-color:#FFFBF6;
+    width: 540px;
+    border-radius: 20px;
+    margin-top: 24px;
+    padding: 0 40px;
+}
+
+@media (max-width:550px){
+    .chartbox__container{
+        width: 343px;
+        border-radius: 10px;
+        margin-top: 16px;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,12 @@
+.App {
+  background-color: #F8E9DD;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.app__container{
+  width: 540px;
+}

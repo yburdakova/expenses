@@ -1,0 +1,58 @@
+.monthdata__container{
+    border-top: 2px solid #F8E9DD;
+    padding-top: 32px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+.monthdata__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857A;
+}
+.monthdata__data{
+    display: flex;
+    justify-content: space-between;
+}
+.monthdata__sum{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #382314;
+}
+.monthdata__percent-sum{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #382314;
+}
+.monthdata__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857A;
+}
+@media (max-width:550px){
+    .monthdata__container{
+        padding-top: 24px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .monthdata__title{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .monthdata__sum{
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .monthdata__percent-sum{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .monthdata__subtitle{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
