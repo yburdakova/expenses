@@ -11,8 +11,16 @@
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    transition: all 0.2s ease 0s;
+}
+.chartItem__line:hover{
+    background-color: #FF9B86;
 }
 .today{
+    background-color: #76B5BC;
+    transition: all 0.2s ease 0s;
+}
+.today:hover{
     background-color: #B4E0E5;
 }
 .chartItem__day{

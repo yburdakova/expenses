@@ -73,4 +73,12 @@ select {
 
 body{
   font-family: 'DM Sans', sans-serif;
+  background-color: #F8E9DD;
+  height: 100vh;
+}
+#root{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
